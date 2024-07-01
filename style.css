@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Franklin', sans-serif; 
+}
 :root {
   --color-acento: #ee6130;
   --color-acento-claro: #ee613033;
@@ -6,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -56,9 +62,8 @@ header nav {
 }
 
 #logo {
-  height: 140px;
-  margin: 1px;
-  margin-left: 650px;
+  height: 120px;
+  margin: 20px
 }
 
 header nav div {
